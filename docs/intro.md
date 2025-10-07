@@ -1,18 +1,9 @@
 ---
 sidebar_position: 1
+title: Introducción
 ---
 
-# Tutorial Intro
+El presente manual está dirigido a los usuarios que inician en el uso del Sistema de Gestión Documental (SGD), con el objetivo de guiarlos en su manejo adecuado.
+El SGD es una herramienta que permite gestionar grandes volúmenes de documentos, facilitando su rastreo, almacenamiento, organización y archivo, tanto de documentos electrónicos como de otros tipos de archivos.
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Se trata de un sistema que centraliza la información en un único entorno digital, lo que permite a los empleados acceder de manera fácil, rápida y segura a los documentos que requieren para el desarrollo de sus funciones

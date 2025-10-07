@@ -1,0 +1,63 @@
+---
+sidebar_position: 4
+title: Recomendaciones
+---
+
+# Recomendaciones de uso del sitio
+
+Para garantizar una mejor experiencia al navegar por la **documentación** y las herramientas del proyecto, se recomienda utilizar navegadores actualizados y seguir las siguientes buenas prácticas.
+
+## Navegadores recomendados
+
+<div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "1rem", alignItems: "center", margin: "1rem 0 1.5rem" }}>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0.75rem", border: "1px solid var(--ifm-color-emphasis-200)", borderRadius: 12 }}>
+    <img src="/img/browsers/chrome.png" alt="Google Chrome" width="48" height="48" />
+    <strong style={{ marginTop: 8 }}>Google Chrome</strong>
+    <small>Windows, macOS, Linux, Android</small>
+  </div>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0.75rem", border: "1px solid var(--ifm-color-emphasis-200)", borderRadius: 12 }}>
+    <img src="/img/browsers/edge.png" alt="Microsoft Edge" width="48" height="48" />
+    <strong style={{ marginTop: 8 }}>Microsoft Edge</strong>
+    <small>Windows, macOS</small>
+  </div>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0.75rem", border: "1px solid var(--ifm-color-emphasis-200)", borderRadius: 12 }}>
+    <img src="https://cdn.simpleicons.org/firefox" alt="Mozilla Firefox" width="48" height="48" />
+    <strong style={{ marginTop: 8 }}>Mozilla Firefox</strong>
+    <small>Windows, macOS, Linux</small>
+  </div>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "0.75rem", border: "1px solid var(--ifm-color-emphasis-200)", borderRadius: 12 }}>
+    <img src="https://cdn.simpleicons.org/safari" alt="Apple Safari" width="48" height="48" />
+    <strong style={{ marginTop: 8 }}>Safari</strong>
+    <small>macOS, iOS</small>
+  </div>
+</div>
+
+El sitio ha sido optimizado y probado principalmente en los siguientes navegadores:
+
+| Navegador                     | Versión mínima recomendada | Última versión estable (Octubre 2025) | Sistema operativo compatible   |
+| ----------------------------- | -------------------------- | ------------------------------------- | ------------------------------ |
+| **Google Chrome**             | 120+                       | **129.0.x**                           | Windows, macOS, Linux, Android |
+| **Microsoft Edge (Chromium)** | 120+                       | **128.0.x**                           | Windows, macOS                 |
+| **Mozilla Firefox**           | 115+                       | **132.0.x**                           | Windows, macOS, Linux          |
+| **Safari**                    | 16+                        | **18.0**                              | macOS, iOS                     |
+
+> **Nota:** El uso de versiones antiguas puede provocar errores visuales, fallos en el renderizado de componentes o incompatibilidad con ciertas funcionalidades interactivas (MDX, búsqueda, chat IA, etc.).
+
+## Compatibilidad del sistema (SGD)
+
+:::info Contexto de compatibilidad
+Esta documentación describe **un sistema** cuya distribución **solo está soportada en Windows**.  
+El **sitio de documentación** es multiplataforma (Windows, macOS, Linux, iOS, Android), pero algunos **componentes del sistema** tienen restricciones específicas.
+:::
+
+### Componentes con soporte exclusivo en Windows
+
+- **tramite-doc** — Disponible solo en **Windows**.
+- **firma-onpe** — Disponible solo en **Windows**.
+
+### Otros sistemas operativos
+
+- **macOS / Linux**: pueden acceder a la **documentación** sin problema, pero **no** podrán utilizar _tramite-doc_ ni _firma-onpe_.
+- **iOS / Android**: acceso a la **documentación** vía navegador móvil; los componentes del sistema no están disponibles en estas plataformas.
+
+> **Recomendación:** Para operar _tramite-doc_ y _firma-onpe_, utilice **Windows 10/11 (64-bit)** con últimas actualizaciones, permisos de administrador cuando corresponda y conectividad de red estable.
